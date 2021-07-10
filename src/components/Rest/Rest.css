@@ -1,0 +1,368 @@
+.other-plt-outer-wrap {
+    height: 630px;
+  }
+
+  .pR {
+    position: relative;
+  }
+
+  #platforms_div {
+    margin-top: 50px;
+    height: 630px;
+  }
+
+  .main-body {
+    padding: 0 20px;
+  }
+
+  .main-body {
+    min-width: 1000px;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+  }
+
+  section {
+    display: block;
+  }
+
+  .op-wrapper {
+    margin-right: 130px;
+    margin-bottom: 0px;
+    margin-left: 130px;
+    margin-top: 35px;
+  }
+
+  .txt-otherplt {
+    z-index: 3;
+    margin-top: -12px;
+  }
+
+  .pA {
+    position: absolute;
+  }
+
+  .w-50 {
+    width: 50%;
+  }
+
+  .rest1.animate {
+    transform: translateY(500px);
+    animation: moveUp 1s cubic-bezier(.19,1,.22,1) forwards;
+    transition: opacity 1s ease-in;
+    opacity: 1;
+  }
+
+  .oph {
+    margin-bottom: 60px;
+    width: 84%;
+  }
+
+  .heading-1 {
+    font-size: 30px;
+    line-height: 1.1em;
+    color: #4a4a4a;
+    font-weight: 600;
+  }
+
+  .main-header-family {
+    text-transform: uppercase;
+  }
+
+  .opd {
+    color: #8a8a8a;
+    margin: 30px 0;
+    width: 315px;
+  }
+
+  .second-level-heading {
+    line-height: 1.5em !important;
+    word-spacing: 2px !important;
+    font-weight: 300 !important;
+  }
+
+  .desc-OP-new {
+    color: #4a4a4a;
+    font-size: 14px;
+    width: 387px;
+    font-weight: 300;
+    margin-top: -31px;
+  }
+
+  .Platform-hl {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 13px;
+  }
+
+  #download-sms {
+    width: 47%;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+  #phoneWrapper {
+    margin-top: 1em;
+  }
+
+  .phone_number_sec {
+    width: 100%;
+  }
+
+  .IP {
+    float: left;
+    width: 26%;
+    height: 23px;
+  }
+
+  select {
+    cursor: pointer;
+  }
+
+  select {
+    text-transform: none;
+  }
+
+  select {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  #smsTXTBOX {
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1em;
+  }
+
+  .LB {
+    float: left;
+  }
+
+  input {
+    color: inherit;
+    font-style: inherit;
+    font-variant-caps: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-size-adjust: inherit;
+    font-kerning: inherit;
+    font-variant-alternates: inherit;
+    font-variant-east-asian: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-numeric: inherit;
+    font-variant-position: inherit;
+    font-language-override: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  #success {
+    color: green;
+  }
+
+  #failure, #success {
+    width: 100%;
+    padding-left: 7em;
+    font-size: 12px;
+  }
+
+  .calendar-hide, .hide {
+    display: none;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  #sendLinkButton {
+    margin-top: 1em;
+  }
+
+  html input[type="button"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+
+  .LB {
+    float: left;
+  }
+
+  .button {
+    padding: 6px 16px 7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .1s;
+    border: none;
+    text-align: center;
+    background-color: #d84e55;
+    color: #fff;
+  }
+
+  .errorMessageFixed {
+    height: 16px;
+  }
+
+  input {
+    line-height: normal;
+  }
+
+  input {
+    font-style: inherit;
+    font-variant-caps: inherit;
+    font-stretch: inherit;
+    font-family: inherit;
+    font-size-adjust: inherit;
+    font-kerning: inherit;
+    font-optical-sizing: inherit;
+    font-variant-alternates: inherit;
+    font-variant-east-asian: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-numeric: inherit;
+    font-variant-position: inherit;
+    font-language-override: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .errorMessageFixed {
+    display: block;
+    font-size: 11px;
+    color: red;
+    margin-top: 2px;
+    text-align: right;
+    word-break: keep-all;
+  }
+
+  .rest1.app_icons {
+    border-spacing: 7px;
+    margin-left: -7px;
+  }
+
+  .rest1.animate {
+    transform: translateY(500px);
+    animation: moveUp 1s cubic-bezier(.19,1,.22,1) forwards;
+    transition: opacity 1s ease-in;
+    opacity: 1;
+  }
+
+  .rest1.app_icons {
+    margin-top: 1em !important;
+  }
+
+  .opi {
+    clear: both;
+  }
+
+  .apple {
+    border: none;
+    background-repeat: no-repeat;
+  }
+
+  .apple {
+    display: table-cell;
+  }
+
+  .icon-iPhone_download {
+    background-image: url(https://www.pngfind.com/pngs/m/494-4941031_iphone-itunes-icon-ios-10-itunes-icon-hd.png);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    width: 40px;
+    height: 40px;
+  }
+
+  [class*=" icon-"] {
+    font-family: icomoon !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  a {
+    background-color: transparent;
+  }
+
+  .google {
+    border: none;
+    background-repeat: no-repeat;
+  }
+
+  .google {
+    display: table-cell;
+  }
+
+  .icon-Google_download {
+    background-image: url(https://www.pngfind.com/pngs/m/494-4941031_iphone-itunes-icon-ios-10-itunes-icon-hd.png);
+    background-position-x: 0px;
+    background-position-y: -80px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .bgImgCont {
+    bottom: 60px;
+    width: 100%;
+    z-index: 1;
+}
+
+  .phn-cont {
+    right: 45px;
+    z-index: 3;
+    top: -19px;
+  }
+
+  .phone {
+    text-align: right;
+  }
+
+  .pA {
+    position: absolute;
+  }
+
+  .bg-img {
+    opacity: .2;
+    width: 100%;
+  }
+
+  img {
+    border: none;
+  }
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; 
+  }

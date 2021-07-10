@@ -1,0 +1,958 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .bgimgs {
+    /* The image used */
+    background-image: url("https://st.redbus.in/Images/INDOFFER/COVID-19/heroimage2.png");
+    position: relative;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ 
+  }
+  .container {
+    margin: center;
+  }
+ /* Full-width input fields */
+  input[type=text], input[type=password], input[type=date] {
+    position: relative;
+    font-size: 15px;
+    top: 215px;
+    padding: 10px 35px;
+    width: 210px;
+    border: 1px solid hsl(0, 12%, 79%);
+    background: white;
+    text-align: start;
+  }
+
+  input[type=button] {
+    position: relative;
+    background-color: #d84f57;
+    font-size: 15px;;
+    color: white;
+    padding: 10px;
+    width: 145px;
+    top: 215px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #text1 {
+    background-image: url("https://image.pngaaa.com/876/749876-middle.png");
+    position: relative;
+    background-position: left;
+    background-size: 13%;
+    background-repeat: no-repeat;
+  }
+
+  #text2 {
+    background-image: url("https://image.pngaaa.com/876/749876-middle.png");
+    position: relative;
+    background-position: left;
+    background-size: 13%;
+    background-repeat: no-repeat;
+  }
+
+  #date {
+    background-image: url("https://spng.subpng.com/20180606/agy/kisspng-computer-icons-calendar-icon-design-carpet-top-view-5b183690da91e7.0466682215283134888953.jpg");
+    position: relative;
+    background-position: left;
+    background-size: 15%;
+    background-repeat: no-repeat;
+  }
+
+  .center{
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 85PX;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+  }
+  
+  .card-container{
+    position: relative;
+    width: 360px;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-out;
+    margin: 9px;
+    background-color: white;
+  }
+
+  .card-container:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 0px 10px 0px;
+  }
+
+  .image-container img{
+    width: 250px;
+  }
+
+  b,a{
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+    
+  }
+  a:hover{
+    text-decoration: none;
+    color: gray;
+  }
+
+  ul.text{
+    list-style-type: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .main-body {
+    padding: 0 20px;
+  }
+
+  .main-body {
+    min-width: 1000px;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .HeroMain {
+    width: 1122px;
+    height: 340px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+
+  .img2_Hero {
+    float: left;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-image: url(//s3.rdbuz.com/Images/webplatform/measures/safetyplus.svg);
+    width: 88px;
+    height: 88px;
+    background-size: contain;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .fr {
+    float: right;
+  }
+
+  .Title_hero {
+    text-align: left;
+    color: #3e3e52;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 27px;
+  }
+
+  .subtext_hero {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: .3px;
+    text-align: left;
+    color: #7e7e8c;
+    margin-top: 10px;
+  }
+
+  .subtext_hero .know-more-anchor {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  a, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a {
+    border: none;
+  }
+
+  a {
+    background-color: transparent;
+  }
+
+  .subHeader_hero {
+    float: left;
+    width: 83%;
+    margin-top: 34px;
+  }
+
+  .img3_hero {
+    background-image: url(//s3.rdbuz.com/images/webplatform/india/HeroFeature/tip-icon.png);
+    width: 24px;
+    height: 24px;
+  }
+
+  .img3_hero {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+
+  .Herotext1 {
+    line-height: 1.71;
+    letter-spacing: .3px;
+  }
+
+  .img4_Hero {
+    background-image: url(//st.redbus.in/Images/safety/landing/measures/safety_plus_tag.svg);
+    width: 74px;
+    height: 18px;
+    margin-top: -4px;
+  }
+
+  .img4_Hero {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+
+  .info_hero {
+    float: left;
+    width: 200px;
+    padding-top: 33px;
+  }
+
+  .info_hero {
+    margin-left: 128px;
+  }
+
+  .titl_hero {
+    height: 24px;
+    font-size: 19px;
+    font-weight: bolder;
+    color: #1446a0;
+  }
+
+  .titl_hero {
+    width: 278px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .3px;
+    text-align: left;
+  }
+
+  .value_hero {
+    width: 278px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .3px;
+    text-align: left;
+  }
+
+  .value_hero {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #34495e;
+    font-weight: 700;
+  }
+
+  .text_hero {
+    width: 278px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: .3px;
+    color: #34495e;
+    text-align: left;
+  }
+
+  .info_hero2 {
+    margin-left: 99px;
+  }
+
+  .info_hero2 {
+    float: left;
+    width: 200px;
+    padding-top: 33px;
+  }
+
+  .titl_hero {
+    height: 24px;
+    font-size: 19px;
+    font-weight: bolder;
+    color: #1446a0;
+  }
+
+  .titl_hero {
+    width: 278px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .3px;
+    text-align: left;
+  }
+
+  .value_hero {
+    width: 278px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .3px;
+    text-align: left;
+  }
+
+  .value_hero {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #34495e;
+    font-weight: 700;
+  }
+
+  .info_hero2 {
+    margin-left: 99px;
+  }
+  .info_hero2 {
+    float: left;
+    width: 200px;
+    padding-top: 33px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .border-separator {
+    border-bottom: 1px solid #ccc;
+  }
+
+  #advantage_div {
+    padding-bottom: 0;
+    padding-top: 15px;
+    background-color: #ededed;
+  }
+
+  section {
+    display: block;
+  }
+
+  .aw {
+    margin: 0 auto;
+  }
+
+  .main-body {
+    padding: 0 20px;
+  }
+
+  .main-body {
+    min-width: 1000px;
+    max-width: 1300px;
+    overflow: hidden;
+  }
+
+  .ah {
+    text-align: center;
+  }
+
+  .ah {
+    font-weight: 600;
+  }
+
+  .heading-1 {
+    font-size: 30px;
+    line-height: 1.1em;
+    color: #4a4a4a;
+  }
+
+  .main-header-family {
+    text-transform: uppercase;
+  }
+
+  .ac, .ad {
+    color: #8d8d8d;
+  }
+
+  .ad {
+    width: 398px;
+    margin: 5px auto;
+  }
+
+  .ad {
+    color: #8d8d8d;
+  }
+
+  .dib {
+    display: inline-block;
+  }
+
+  .aa {
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    color: #8d8d8d;
+    margin-top: 13px;
+  }
+
+  .promise-head-main {
+    margin-top: 13px;
+  }
+
+  .our-promise-blocks > div {
+    box-shadow: 0 0 1.2px #686868;
+    height: 390px;
+    color: #3c3d41;
+    background-color: #fff;
+  }
+
+  .aa div {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .second-level-heading {
+    line-height: 1.5em !important;
+    word-spacing: 2px !important;
+    font-weight: 300 !important;
+  }
+
+  .our-promise-blocks .imgCont {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    min-height: 125px;
+  }
+
+  .our-promise-blocks .tilleBlock {
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    margin: 0 auto;
+    width: 215px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .our-promise-blocks .descCont {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #737373;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 60%;
+  }
+
+  .our-promise-blocks > div {
+    box-shadow: 0 0 1.2px #686868;
+    height: 390px;
+    color: #3c3d41;
+    background-color: #fff;
+  }
+
+  .aa-25 {
+    width: 25%;
+    position: relative;
+  }
+
+  .our-promise-blocks .imgCont {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    min-height: 125px;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+  }
+
+  #rh_main {
+    min-width: 1000px;
+    position: relative;
+    min-height: 100%;
+  }
+
+  #awards_div {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .main-body {
+    min-width: 1000px;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+  }
+
+  .aw {
+    margin: 0 auto;
+  }
+
+  #awards_div .main-head {
+    margin-bottom: 80px;
+  }
+
+  .ah {
+    text-align: center;
+  }
+
+  .ah {
+    font-weight: 600;
+  }
+
+  .heading-1 {
+    font-size: 30px;
+    line-height: 1.1em;
+    color: #4a4a4a;
+  }
+
+  .main-header-family {
+    text-transform: uppercase;
+  }
+
+  .awards-main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .ac {
+    margin: 30px auto;
+  }
+
+  .ac{
+    color: #8d8d8d;
+  }
+
+  .ac {
+    color: #8d8d8d;
+  }
+
+  .ac > div {
+    width: 33.33%;
+  }
+
+  .ac div {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  #awards_div .imgCont {
+    margin-bottom: 30px;
+  }
+
+  .ac div {
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #awards_div .label-1 {
+    font-weight: 500 !important;
+    line-height: 25px !important;
+  }
+
+  #awards_div .label-1 {
+    width: 186px;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 54px;
+ }
+
+  a .second-level-heading {
+    color: #4a4a4a;
+  }
+
+  #awards_div .label-2 {
+    margin: 0 auto;
+    width: 140px;
+    letter-spacing: 2px;
+    font-size: 17px;
+  }
+
+  #awards_div .label-2 {
+    font-weight: 500 !important;
+    line-height: 25px !important;
+  }
+
+  a .second-level-heading {
+    color: #4a4a4a;
+  }
+
+  .second-level-heading {
+    word-spacing: 2px !important;
+  }
+
+  .ac > div {
+    width: 33.33%;
+  }
+
+  .ac div {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  a {
+    background-color: transparent;
+  }
+
+  .ac div {
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  #awards_div .imgCont {
+    margin-bottom: 30px;
+  }
+
+  .ac div {
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #awards_div .label-1 {
+    font-weight: 500 !important;
+    line-height: 25px !important;
+  }
+
+  #awards_div .label-1 {
+    width: 186px;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 54px;
+  }
+
+  a .second-level-heading {
+    color: #4a4a4a;
+  }
+
+  .ac div {
+    text-align: center;
+  }
+
+  #awards_div .label-2 {
+    margin: 0 auto;
+    width: 140px;
+    letter-spacing: 2px;
+    font-size: 17px;
+  }
+
+  #awards_div .label-2 {
+    font-weight: 500 !important;
+    line-height: 25px !important;
+  }
+
+  a .second-level-heading {
+    color: #4a4a4a;
+  }
+
+  .second-level-heading {
+    word-spacing: 2px !important;
+  }
+
+  a {
+    border: none;
+  }
+
+  .ac {
+    color: #8d8d8d;
+  }
+
+  #awards_div .imgCont {
+    margin-bottom: 30px;
+  }
+
+  #awards_div .label-2 {
+    margin: 0 auto;
+    width: 140px;
+    letter-spacing: 2px;
+    font-size: 17px;
+  }
+
+  #awards_div .label-2 {
+    font-weight: 500 !important;
+    line-height: 25px !important;
+  }
+
+  a .second-level-heading {
+    color: #4a4a4a;
+  }
+
+  .second-level-heading {
+    word-spacing: 2px !important;
+  }
+
+  .awards-main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .ac {
+    margin: 30px auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  #our_distribution_div {
+    padding-bottom: 10px;
+    padding-top: 40px;
+    background-color: #f1f1f1;
+  }
+
+  .main-body {
+    padding: 0 20px;
+  }
+
+  .main-body {
+    min-width: 1000px;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .flag-cont {
+    text-align: center;
+    padding: 25px 100px 30px;
+  }
+
+  #our_distribution_div .heading-1 {
+    line-height: 50px;
+  }
+
+  .ah {
+    text-align: center;
+  }
+
+  .ah {
+    font-weight: 600;
+  }
+
+  .flag-cont {
+    text-align: center;
+    padding: 25px 100px 30px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .country-flags {
+    margin: 25px 0;
+    width: 33%;
+    float: left;
+  }
+
+  .link-blocks {
+    cursor: pointer;
+  }
+
+  .dib {
+    display: inline-block;
+  }
+
+  .flagicon {
+    border: none;
+    display: inline-block;
+    background-repeat: no-repeat;
+  }
+
+  .icon-COL {
+    background-image: url("https://cdn.britannica.com/68/7668-004-08492AB7/Flag-Colombia.jpg");
+    background-size: 100% 100%;
+    width: 120px;
+    height: 80px;
+  }
+
+  [class*=" icon-"] {
+    font-family: icomoon !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .flag-name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2.7px;
+    color: #737373;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .link-blocks {
+    cursor: pointer;
+  }
+
+  .flagicon {
+    border: none;
+    display: inline-block;
+    background-repeat: no-repeat;
+  }
+
+  .icon-IND {
+    background-image: url("https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg");
+    background-size: 100% 100%;
+    width: 121px;
+    height: 80px;
+  }
+
+  [class*=" icon-"] {
+    font-family: icomoon !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  }
+
+  .icon-IDN {
+    background-image: url("https://cdn.britannica.com/48/1648-004-A33B72D8/Flag-Indonesia.jpg");
+    background-size: 100% 100%;
+    width: 121px;
+    height: 80px;
+  }
+
+  .icon-MYS {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg");
+    background-size: 100% 100%;
+    width: 158px;
+    height: 80px;
+  }
+
+  .icon-PER {
+    background-image: url("data:image/png;base64,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");
+    background-size: 100% 100%;
+    width: 120px;
+    height: 80px;
+  }
+
+  .icon-SGP {
+    background-image: url("https://cdn.britannica.com/36/4036-004-710DB7F7/Flag-Singapore.jpg");
+    background-size: 100% 100%;
+    width: 121px;
+    height: 80px;
+  }
+
+  #stats_div {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 85px;
+  }
+
+  .stats-header {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .stats-v-holder {
+    margin: 50px 0;
+  }
+
+  .stats-v-holder > div {
+    text-align: center;
+    width: 33.33%;
+  }
+
+  .sp {
+    color: #737373;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+
+  .sv {
+    color: #da4e52;
+    font-size: 46px;
+    font-weight: 400;
+  }
+
+  .common-desc {
+    width: 208px;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-top: 10px;
+  }
+
+  .second-level-heading {
+    line-height: 1.5em !important;
+    word-spacing: 2px !important;
+    font-weight: 300 !important;
+  }
+
+  
+  
+
+
